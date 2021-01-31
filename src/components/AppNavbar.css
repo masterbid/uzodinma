@@ -1,0 +1,38 @@
+.header{
+    background: rgb(69, 125, 199);
+    
+}
+.brand{
+    display:flex;
+    max-width: 70%;
+}
+.brand_logo{
+    width: 60px;
+}
+.brand_logo_con{
+    margin-right: 1rem;
+}
+.header a{
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(247, 247, 247, 0.8);
+}
+.navbar-dark .navbar-brand  {
+    color: rgba(247, 247, 247, 0.8);
+}
+.head_link {
+    margin-right: 1.5rem;
+}
+.head_link i{
+    margin-right: .2rem;
+}
+@media (max-width: 789px){
+    .head_link i{
+        display: none;
+    }
+    .brand_logo{
+        width: 100px;
+        height: 90%;
+    }
+}

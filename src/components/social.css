@@ -1,0 +1,28 @@
+
+.social a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0,0.4);
+}
+.social{
+    margin:0;
+    padding: 0;
+}
+.sci{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.sci li a i{
+    margin:0;
+    padding: 0;
+    color: #fff;
+}

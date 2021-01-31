@@ -1,0 +1,16 @@
+.teams{
+    background: rgb(28, 73, 133);
+    padding: 5rem 0;
+}
+#pop, .MP h5, .P1 h5, .MT h3{
+    color: #fff;
+}
+.MP p, .P1 p,.MT ul li{
+    color: #eee;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.MT ul{
+    padding: 0;
+    list-style: none;
+}

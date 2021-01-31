@@ -1,0 +1,89 @@
+.homepage{
+    background: url('../img/uzo3.jpg') no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 4rem;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .7;
+}
+.bannerText{
+    color: #fff;
+    position: relative;
+    z-index: 100;
+}
+.bannerTextContent h2, .bannerTextContent p{
+    background: rgba(28, 73, 133, .8);
+    padding: .3rem;
+    border-radius: .5rem;
+    max-width: 60%;
+}
+.industries{
+    background: #eee;
+    padding: 2rem;
+}
+.fas {
+    color: rgb(28, 73, 133);
+}
+.bannerBody{
+    color: #000;
+}
+#read-more{
+    background: rgb(28, 73, 133);
+    border: none;
+}
+.login_btn{
+    background: transparent;
+    color: rgb(1, 39, 9);
+    border: none;
+}
+.hp_ser{
+    justify-content: flex-end;
+}
+.hp_services_header{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #000;
+}
+.hp_services_body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    
+}
+.hp_services_items{
+    text-align: center;
+    padding: 1rem;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.fas{
+    font-size: 3rem;
+}
+@media (max-width: 768px){
+    .hp_services_body{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .hp_services_items{
+        padding: 1rem;
+        max-width: 100%;
+        border-bottom: 1px solid #ccc;
+        margin-top: 2rem;
+    }
+    .homepage{
+        padding: 2rem;
+    }
+    .bannerTextContent h2, .bannerTextContent p{
+        max-width: 100%;
+    }
+}

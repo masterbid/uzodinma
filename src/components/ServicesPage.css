@@ -1,0 +1,35 @@
+.services{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+    color: #000;
+}
+.service{
+    margin: 0 3rem 4.5rem 0;
+}
+.service ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+.service ul li{
+    background: rgb(28, 73, 133);
+    color: #eee;
+    padding: .5rem;
+    margin-top: .5rem;
+    border-radius: .5rem;
+}
+.service-right{
+    text-align: right;
+}
+
+@media (max-width: 768px){
+    .services{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 2rem;
+    }
+    .service{
+        margin: 2rem 0 0 0;
+    }
+}
